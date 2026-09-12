@@ -10,7 +10,11 @@ read -r -a KEY_WORDS
 echo "Количество элементов: ${#KEY_WORDS[@]}"
 
 for word in "${KEY_WORDS[@]}"; do
-	echo "\n\n=========================================\n\n" >> "$REPORT"
-	echo "\t\t\tKEYWORD: ${word} LOGS: \n" >> "$REPORT"
+	echo "
+	==========================================" >> "$REPORT"
+	echo "	||	KEYWORD: ${word} LOGS:		||" >> "$REPORT"
+	echo "	==========================================
+	
+	" >> "$REPORT"
 	grep "$word" "$LOG_FILE" >> "$REPORT"
 done
