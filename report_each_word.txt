@@ -1,0 +1,103 @@
+
+	==========================================
+	||	KEYWORD: aboba LOGS:		||
+	==========================================
+	
+	
+
+	==========================================
+	||	KEYWORD: hierarchy LOGS:		||
+	==========================================
+	
+	
+Sep 11 17:58:32 sysadmin-host kernel: [    2.876260] systemd[1]: systemd 249.11-0ubuntu3.22 running in system mode (+PAM +AUDIT +SELINUX +APPARMOR +IMA +SMACK +SECCOMP +GCRYPT +GNUTLS +OPENSSL +ACL +BLKID +CURL +ELFUTILS +FIDO2 +IDN2 -IDN +IPTC +KMOD +LIBCRYPTSETUP +LIBFDISK +PCRE2 -PWQUALITY -P11KIT -QRENCODE +BZIP2 +LZ4 +XZ +ZLIB +ZSTD -XKBCOMMON +UTMP +SYSVINIT default-hierarchy=unified)
+Sep 11 21:10:23 sysadmin-host kernel: [    3.065914] systemd[1]: systemd 249.11-0ubuntu3.22 running in system mode (+PAM +AUDIT +SELINUX +APPARMOR +IMA +SMACK +SECCOMP +GCRYPT +GNUTLS +OPENSSL +ACL +BLKID +CURL +ELFUTILS +FIDO2 +IDN2 -IDN +IPTC +KMOD +LIBCRYPTSETUP +LIBFDISK +PCRE2 -PWQUALITY -P11KIT -QRENCODE +BZIP2 +LZ4 +XZ +ZLIB +ZSTD -XKBCOMMON +UTMP +SYSVINIT default-hierarchy=unified)
+Sep 12 11:05:51 sysadmin-host kernel: [ 4251.098832] systemd[1]: systemd 249.11-0ubuntu3.22 running in system mode (+PAM +AUDIT +SELINUX +APPARMOR +IMA +SMACK +SECCOMP +GCRYPT +GNUTLS +OPENSSL +ACL +BLKID +CURL +ELFUTILS +FIDO2 +IDN2 -IDN +IPTC +KMOD +LIBCRYPTSETUP +LIBFDISK +PCRE2 -PWQUALITY -P11KIT -QRENCODE +BZIP2 +LZ4 +XZ +ZLIB +ZSTD -XKBCOMMON +UTMP +SYSVINIT default-hierarchy=unified)
+
+	==========================================
+	||	KEYWORD: ubuntu LOGS:		||
+	==========================================
+	
+	
+Sep 11 17:58:32 sysadmin-host cloud-init[592]: Cloud-init v. 26.1-0ubuntu1~22.04.1 running 'init-local' at Fri, 11 Sep 2026 17:58:29 +0000. Up 3.97 seconds.
+Sep 11 17:58:32 sysadmin-host cloud-init[630]: Cloud-init v. 26.1-0ubuntu1~22.04.1 running 'init' at Fri, 11 Sep 2026 17:58:31 +0000. Up 5.58 seconds.
+Sep 11 17:58:32 sysadmin-host kernel: [    0.000000] Linux version 5.15.0-190-generic (buildd@lcy02-amd64-101) (gcc (Ubuntu 11.4.0-1ubuntu1~22.04.3) 11.4.0, GNU ld (GNU Binutils for Ubuntu) 2.38) #200-Ubuntu SMP Fri Aug 7 15:06:04 UTC 2026 (Ubuntu 5.15.0-190.200-generic 5.15.209)
+Sep 11 17:58:32 sysadmin-host kernel: [    2.876260] systemd[1]: systemd 249.11-0ubuntu3.22 running in system mode (+PAM +AUDIT +SELINUX +APPARMOR +IMA +SMACK +SECCOMP +GCRYPT +GNUTLS +OPENSSL +ACL +BLKID +CURL +ELFUTILS +FIDO2 +IDN2 -IDN +IPTC +KMOD +LIBCRYPTSETUP +LIBFDISK +PCRE2 -PWQUALITY -P11KIT -QRENCODE +BZIP2 +LZ4 +XZ +ZLIB +ZSTD -XKBCOMMON +UTMP +SYSVINIT default-hierarchy=unified)
+Sep 11 17:58:32 sysadmin-host kernel: [    2.897355] systemd[1]: Hostname set to <ubuntu>.
+Sep 11 17:58:32 sysadmin-host kernel: [    3.439692] audit: type=1400 audit(1789149509.377:5): apparmor="STATUS" operation="profile_load" profile="unconfined" name="ubuntu_pro_apt_news" pid=569 comm="apparmor_parser"
+Sep 11 17:58:32 sysadmin-host pollinate[741]: client sent challenge to [https://entropy.ubuntu.com/]
+Sep 11 17:58:32 sysadmin-host snapd[745]: daemon.go:277: started snapd/2.76.3+ubuntu22.04 (series 16; classic) ubuntu/22.04 (amd64) linux/5.15.0-190-generic.
+Sep 11 17:58:32 sysadmin-host pollinate[741]: client verified challenge/response with [https://entropy.ubuntu.com/]
+Sep 11 17:58:32 sysadmin-host pollinate[741]: client hashed response from [https://entropy.ubuntu.com/]
+Sep 11 17:58:32 sysadmin-host systemd[1]: Started Session 1 of User ubuntu.
+Sep 11 17:58:34 sysadmin-host cloud-init[1448]: Cloud-init v. 26.1-0ubuntu1~22.04.1 running 'modules:config' at Fri, 11 Sep 2026 17:58:34 +0000. Up 8.70 seconds.
+Sep 11 17:58:34 sysadmin-host cloud-init[1460]: Cloud-init v. 26.1-0ubuntu1~22.04.1 running 'modules:final' at Fri, 11 Sep 2026 17:58:34 +0000. Up 8.99 seconds.
+Sep 11 17:58:35 sysadmin-host python3[1471]: ["2026-09-11T20:58:35.108", "INFO", "ubuntupro.system", "get_cpu_info", 296, "could not open /proc/sysinfo", {}]
+Sep 11 17:58:35 sysadmin-host python3[1471]: ["2026-09-11T20:58:35.109", "INFO", "ubuntupro.system", "get_cpu_info", 306, "could not open /sys/firmware/devicetree/base/model", {}]
+Sep 11 17:58:35 sysadmin-host cloud-init[1460]: Hit:1 http://archive.ubuntu.com/ubuntu jammy InRelease
+Sep 11 17:58:35 sysadmin-host cloud-init[1460]: Get:2 http://security.ubuntu.com/ubuntu jammy-security InRelease [129 kB]
+Sep 11 17:58:35 sysadmin-host cloud-init[1460]: Get:3 http://archive.ubuntu.com/ubuntu jammy-updates InRelease [128 kB]
+Sep 11 17:58:35 sysadmin-host cloud-init[1460]: Get:4 http://security.ubuntu.com/ubuntu jammy-security/main amd64 Packages [3526 kB]
+Sep 11 17:58:35 sysadmin-host cloud-init[1460]: Get:5 http://archive.ubuntu.com/ubuntu jammy-backports InRelease [127 kB]
+Sep 11 17:58:35 sysadmin-host cloud-init[1460]: Get:6 http://archive.ubuntu.com/ubuntu jammy/universe amd64 Packages [14.1 MB]
+Sep 11 17:58:35 sysadmin-host cloud-init[1460]: Get:7 http://security.ubuntu.com/ubuntu jammy-security/main Translation-en [495 kB]
+Sep 11 17:58:35 sysadmin-host cloud-init[1460]: Get:8 http://security.ubuntu.com/ubuntu jammy-security/restricted amd64 Packages [6306 kB]
+Sep 11 17:58:36 sysadmin-host cloud-init[1460]: Get:9 http://security.ubuntu.com/ubuntu jammy-security/restricted Translation-en [1211 kB]
+Sep 11 17:58:36 sysadmin-host cloud-init[1460]: Get:10 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 Packages [1048 kB]
+Sep 11 17:58:36 sysadmin-host cloud-init[1460]: Get:11 http://security.ubuntu.com/ubuntu jammy-security/universe Translation-en [235 kB]
+Sep 11 17:58:36 sysadmin-host cloud-init[1460]: Get:12 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 c-n-f Metadata [23.2 kB]
+Sep 11 17:58:36 sysadmin-host cloud-init[1460]: Get:13 http://security.ubuntu.com/ubuntu jammy-security/multiverse amd64 Packages [69.4 kB]
+Sep 11 17:58:36 sysadmin-host cloud-init[1460]: Get:14 http://security.ubuntu.com/ubuntu jammy-security/multiverse Translation-en [12.9 kB]
+Sep 11 17:58:36 sysadmin-host cloud-init[1460]: Get:15 http://security.ubuntu.com/ubuntu jammy-security/multiverse amd64 c-n-f Metadata [544 B]
+Sep 11 17:58:36 sysadmin-host cloud-init[1460]: Get:16 http://archive.ubuntu.com/ubuntu jammy/universe Translation-en [5652 kB]
+Sep 11 17:58:36 sysadmin-host cloud-init[1460]: Get:17 http://archive.ubuntu.com/ubuntu jammy/universe amd64 c-n-f Metadata [286 kB]
+Sep 11 17:58:36 sysadmin-host cloud-init[1460]: Get:18 http://archive.ubuntu.com/ubuntu jammy/multiverse amd64 Packages [217 kB]
+Sep 11 17:58:36 sysadmin-host cloud-init[1460]: Get:19 http://archive.ubuntu.com/ubuntu jammy/multiverse Translation-en [112 kB]
+Sep 11 17:58:36 sysadmin-host cloud-init[1460]: Get:20 http://archive.ubuntu.com/ubuntu jammy/multiverse amd64 c-n-f Metadata [8372 B]
+Sep 11 17:58:36 sysadmin-host cloud-init[1460]: Get:21 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 Packages [3795 kB]
+Sep 11 17:58:36 sysadmin-host cloud-init[1460]: Get:22 http://archive.ubuntu.com/ubuntu jammy-updates/main Translation-en [563 kB]
+Sep 11 17:58:36 sysadmin-host cloud-init[1460]: Get:23 http://archive.ubuntu.com/ubuntu jammy-updates/restricted amd64 Packages [6542 kB]
+Sep 11 17:58:36 sysadmin-host cloud-init[1460]: Get:24 http://archive.ubuntu.com/ubuntu jammy-updates/restricted Translation-en [1256 kB]
+Sep 11 17:58:36 sysadmin-host cloud-init[1460]: Get:25 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 Packages [1282 kB]
+Sep 11 17:58:36 sysadmin-host cloud-init[1460]: Get:26 http://archive.ubuntu.com/ubuntu jammy-updates/universe Translation-en [323 kB]
+Sep 11 17:58:36 sysadmin-host cloud-init[1460]: Get:27 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 c-n-f Metadata [30.8 kB]
+Sep 11 17:58:36 sysadmin-host cloud-init[1460]: Get:28 http://archive.ubuntu.com/ubuntu jammy-updates/multiverse amd64 Packages [76.8 kB]
+Sep 11 17:58:36 sysadmin-host cloud-init[1460]: Get:29 http://archive.ubuntu.com/ubuntu jammy-updates/multiverse Translation-en [15.9 kB]
+Sep 11 17:58:36 sysadmin-host cloud-init[1460]: Get:30 http://archive.ubuntu.com/ubuntu jammy-updates/multiverse amd64 c-n-f Metadata [756 B]
+Sep 11 17:58:36 sysadmin-host cloud-init[1460]: Get:31 http://archive.ubuntu.com/ubuntu jammy-backports/main amd64 Packages [70.2 kB]
+Sep 11 17:58:36 sysadmin-host cloud-init[1460]: Get:32 http://archive.ubuntu.com/ubuntu jammy-backports/main Translation-en [11.4 kB]
+Sep 11 17:58:36 sysadmin-host cloud-init[1460]: Get:33 http://archive.ubuntu.com/ubuntu jammy-backports/main amd64 c-n-f Metadata [412 B]
+Sep 11 17:58:36 sysadmin-host cloud-init[1460]: Get:34 http://archive.ubuntu.com/ubuntu jammy-backports/restricted amd64 c-n-f Metadata [116 B]
+Sep 11 17:58:36 sysadmin-host cloud-init[1460]: Get:35 http://archive.ubuntu.com/ubuntu jammy-backports/universe amd64 Packages [30.8 kB]
+Sep 11 17:58:36 sysadmin-host cloud-init[1460]: Get:36 http://archive.ubuntu.com/ubuntu jammy-backports/universe Translation-en [16.9 kB]
+Sep 11 17:58:36 sysadmin-host cloud-init[1460]: Get:37 http://archive.ubuntu.com/ubuntu jammy-backports/universe amd64 c-n-f Metadata [676 B]
+Sep 11 17:58:36 sysadmin-host cloud-init[1460]: Get:38 http://archive.ubuntu.com/ubuntu jammy-backports/multiverse amd64 c-n-f Metadata [116 B]
+Sep 11 17:58:42 sysadmin-host cloud-init[1460]: pollinate is already the newest version (4.33-3ubuntu2.3).
+Sep 11 17:58:42 sysadmin-host cloud-init[1460]: Cloud-init v. 26.1-0ubuntu1~22.04.1 finished at Fri, 11 Sep 2026 17:58:42 +0000. Datasource DataSourceNoCloud [seed=/dev/sr0].  Up 16.76 seconds
+Sep 11 17:58:42 sysadmin-host cloud-init[1460]: ci-info: ++++++++++++++++++++++++++++++++++++Authorized keys from /home/ubuntu/.ssh/authorized_keys for user ubuntu++++++++++++++++++++++++++++++++++++
+Sep 11 17:58:42 sysadmin-host cloud-init[1460]: ci-info: |   ssh-rsa   | 8c:d0:99:9a:4d:d6:b1:2a:cc:66:c7:c0:80:0f:c1:fb:67:87:73:10:a3:ac:53:13:58:33:51:bb:2d:a2:8f:a9 |    -    | ubuntu@localhost |
+Sep 11 17:59:01 sysadmin-host systemd-timesyncd[564]: Initial synchronization to time server 185.125.190.58:123 (ntp.ubuntu.com).
+Sep 11 18:00:51 sysadmin-host systemd[1]: Started Session 3 of User ubuntu.
+Sep 11 18:01:13 sysadmin-host systemd[1]: Started Session 4 of User ubuntu.
+Sep 11 21:10:23 sysadmin-host cloud-init[602]: Cloud-init v. 26.1-0ubuntu1~22.04.1 running 'init-local' at Fri, 11 Sep 2026 18:10:21 +0000. Up 3.84 seconds.
+Sep 11 21:10:23 sysadmin-host cloud-init[618]: Cloud-init v. 26.1-0ubuntu1~22.04.1 running 'init' at Fri, 11 Sep 2026 18:10:23 +0000. Up 5.50 seconds.
+Sep 11 21:10:23 sysadmin-host kernel: [    0.000000] Linux version 5.15.0-190-generic (buildd@lcy02-amd64-101) (gcc (Ubuntu 11.4.0-1ubuntu1~22.04.3) 11.4.0, GNU ld (GNU Binutils for Ubuntu) 2.38) #200-Ubuntu SMP Fri Aug 7 15:06:04 UTC 2026 (Ubuntu 5.15.0-190.200-generic 5.15.209)
+Sep 11 21:10:23 sysadmin-host kernel: [    3.065914] systemd[1]: systemd 249.11-0ubuntu3.22 running in system mode (+PAM +AUDIT +SELINUX +APPARMOR +IMA +SMACK +SECCOMP +GCRYPT +GNUTLS +OPENSSL +ACL +BLKID +CURL +ELFUTILS +FIDO2 +IDN2 -IDN +IPTC +KMOD +LIBCRYPTSETUP +LIBFDISK +PCRE2 -PWQUALITY -P11KIT -QRENCODE +BZIP2 +LZ4 +XZ +ZLIB +ZSTD -XKBCOMMON +UTMP +SYSVINIT default-hierarchy=unified)
+Sep 11 21:10:23 sysadmin-host kernel: [    3.573444] audit: type=1400 audit(1789150221.580:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="ubuntu_pro_apt_news" pid=568 comm="apparmor_parser"
+Sep 11 21:10:23 sysadmin-host snapd[662]: daemon.go:277: started snapd/2.76.3+ubuntu22.04 (series 16; classic) ubuntu/22.04 (amd64) linux/5.15.0-190-generic.
+Sep 11 21:10:23 sysadmin-host systemd[1]: Started Session 1 of User ubuntu.
+Sep 11 21:10:24 sysadmin-host cloud-init[895]: Cloud-init v. 26.1-0ubuntu1~22.04.1 running 'modules:config' at Fri, 11 Sep 2026 18:10:24 +0000. Up 6.29 seconds.
+Sep 11 21:10:24 sysadmin-host cloud-init[900]: Cloud-init v. 26.1-0ubuntu1~22.04.1 running 'modules:final' at Fri, 11 Sep 2026 18:10:24 +0000. Up 6.47 seconds.
+Sep 11 21:10:24 sysadmin-host cloud-init[900]: Cloud-init v. 26.1-0ubuntu1~22.04.1 finished at Fri, 11 Sep 2026 18:10:24 +0000. Datasource DataSourceNoCloud [seed=/dev/sr0].  Up 6.50 seconds
+Sep 11 21:14:48 sysadmin-host systemd-timesyncd[563]: Initial synchronization to time server 185.125.190.57:123 (ntp.ubuntu.com).
+Sep 11 21:50:09 sysadmin-host systemd[1]: Started Session 4 of User ubuntu.
+Sep 11 21:50:21 sysadmin-host systemd[1]: Started Session 5 of User ubuntu.
+Sep 12 11:05:51 sysadmin-host kernel: [ 4251.098832] systemd[1]: systemd 249.11-0ubuntu3.22 running in system mode (+PAM +AUDIT +SELINUX +APPARMOR +IMA +SMACK +SECCOMP +GCRYPT +GNUTLS +OPENSSL +ACL +BLKID +CURL +ELFUTILS +FIDO2 +IDN2 -IDN +IPTC +KMOD +LIBCRYPTSETUP +LIBFDISK +PCRE2 -PWQUALITY -P11KIT -QRENCODE +BZIP2 +LZ4 +XZ +ZLIB +ZSTD -XKBCOMMON +UTMP +SYSVINIT default-hierarchy=unified)
+Sep 12 11:06:29 sysadmin-host 50-motd-news[11662]:    https://ubuntu.com/workshop
+Sep 12 11:45:12 sysadmin-host systemd-timesyncd[563]: Timed out waiting for reply from 185.125.190.57:123 (ntp.ubuntu.com).
+Sep 12 11:45:23 sysadmin-host systemd-timesyncd[563]: Timed out waiting for reply from 185.125.190.58:123 (ntp.ubuntu.com).
+Sep 12 11:45:33 sysadmin-host systemd-timesyncd[563]: Timed out waiting for reply from 185.125.190.56:123 (ntp.ubuntu.com).
+Sep 12 11:45:43 sysadmin-host systemd-timesyncd[563]: Timed out waiting for reply from 91.189.91.157:123 (ntp.ubuntu.com).
+Sep 12 12:37:06 sysadmin-host systemd-timesyncd[563]: Initial synchronization to time server 185.125.190.56:123 (ntp.ubuntu.com).
+Sep 12 12:41:10 sysadmin-host systemd[1]: Started Session 9 of User ubuntu.
+Sep 12 15:52:10 sysadmin-host systemd[1]: Started Session 13 of User ubuntu.
