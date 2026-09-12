@@ -1,10 +1,14 @@
 # my-sysadmin-scripts
 
 ## Структура репозитория
-my-sysadmin-scripts/
-  ├── README.md # одна строка: что делает скрипт
-  ├── script.sh # сам скрипт
-  └── sample_output.txt  # пример вывода
+
+	my-sysadmin-scripts/
+
+		|-README.md # одна строка: что делает скрипт
+
+		|-script.sh # сам скрипт
+
+		|-sample_output.txt  # пример вывода
 
 ## Что делает скрипт script.sh
 
